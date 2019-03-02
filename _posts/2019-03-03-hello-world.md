@@ -9,13 +9,13 @@ Well I started with a new blog again.
 
 Like a typical hello world in programming language, which one do you prefer?
 
-{% highlight %}
+{% highlight python %}
 print("Hello World")
 {% endhighlight %}
 
 or this?
 
-{% highlight %}
+{% highlight java %}
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World");
@@ -25,7 +25,7 @@ public class HelloWorld {
 
 but currently i'm getting interested with this
 
-{% highlight %}
+{% highlight go %}
 package main
 
 import (
