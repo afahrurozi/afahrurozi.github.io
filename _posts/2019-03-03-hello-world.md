@@ -17,10 +17,10 @@ or this?
 
 {% highlight css %}
 public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World");
+    {public static void main(String[] args) {}
+        {System.out.println("Hello, World");}
     }
-}
+{}}}
 {% endhighlight %}
 
 but currently i'm getting interested with this
@@ -33,6 +33,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World")
+	{fmt.Println("Hello World")}
 }
 {% endhighlight %}
