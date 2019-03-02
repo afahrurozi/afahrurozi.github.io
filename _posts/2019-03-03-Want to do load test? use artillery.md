@@ -7,13 +7,11 @@ summary: we are already familiar with Jmeter, but there's a more simple tool to 
 
 as we already know, load test is a kind of Performance Testing which determines a systems performance under real-life load conditions. let's say you have an ecommerce website with daily user active 100K user per hour or you have an app with more than 100K api call per hour.
 
-Then marketing team have a plan to doing some promotion in your app/website at 6 pm, then we can predict there will be a spike in your active user during that time. As an engineer we have to prevent that a suddenly spike of user. If you're already using microservices and serverless system might be that problem is getting easier for now (Thanks to kubernetes). 
+Then marketing team have a plan to doing some promotion in your app/website at 6 pm, then we can predict there will be a spike in your active user during that time. As an engineer we have to prevent that a suddenly spike of user. If you're already using microservices and serverless system might be that problem is getting easier for now (Thanks to kubernetes). But still we need to make sure the API endpoints are tough and reliable during peak time, with load testing at least we are giving confidence level of performance. 
 
-The basic concept of load testing are we sending of X amount request per X time from X user.
+So, The basic concept of load testing are, we sending of X amount request per X time from X user.
 
-But still we need to make sure the API endpoints are tough and reliable during peak time, with load testing at least we are giving confidence level of performance. What are the common tools for load testing? Jmeter is battle proven for doing load test and well known, but the UI is so confusing.
-
-there's another alternative, called [Artillery] (https://artillery.io/). if you're familiar with python, there's locust.io to doing the same thing. Artillery are javascript based and have very minimal interface, it's using CLI.
+What are the common tools for load testing? Jmeter is battle proven for doing load test and well known, but the UI is so confusing. There's another alternative, called [Artillery](https://artillery.io/). if you're familiar with python, there's [Locust](https://locust.io) to doing the same thing. Artillery are javascript based and have very minimal interface, it's using CLI.
 
 to install it make sure you have a latest version of node and NPM.
 
@@ -79,7 +77,7 @@ what does it means?
 - Request latency is in milliseconds, and p95 and p99 values are the 95th and 99th percentile values.
 - Codes provides the breakdown of HTTP response codes received.
 
-also Artillery is providing running test script via .yaml file. For more info go through their website.
+also Artillery is providing running test script via .yaml file. For more info go visit their website.
 
 
 
