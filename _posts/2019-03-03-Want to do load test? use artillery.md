@@ -1,8 +1,6 @@
 ---
 title: Want doing a load test? use Artillery
 summary: we are already familiar with Jmeter, but there's a more simple tool to doing that
-layout: default
-comments: true
 ---
 
 as we already know, load test is a kind of Performance Testing which determines a systems performance under real-life load conditions. let's say you have an ecommerce website with daily user active 100K user per hour or you have an app with more than 100K api call per hour.
